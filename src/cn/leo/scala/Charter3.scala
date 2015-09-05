@@ -7,7 +7,7 @@ import scala.collection.mutable.Buffer
 import scala.util.{Sorting, Random}
 import scala.collection.JavaConversions.asScalaBuffer
 
-object HelloScala {
+object Charter3 {
 
   def main(args: Array[String]) {
     val array = generateRandomArray(10, allowMinus = false)
