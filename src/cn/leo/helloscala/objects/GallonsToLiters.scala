@@ -1,4 +1,4 @@
-package cn.leo.scala.objects
+package cn.leo.helloscala.objects
 
 /**
  * Created by Administrator.

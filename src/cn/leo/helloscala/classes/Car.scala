@@ -1,4 +1,4 @@
-package cn.leo.scala.clazz
+package cn.leo.helloscala.classes
 
 /**
  * Created by Administrator.

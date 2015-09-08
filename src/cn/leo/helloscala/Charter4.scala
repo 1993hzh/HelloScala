@@ -1,4 +1,4 @@
-package cn.leo.scala
+package cn.leo.helloscala
 
 import java.io.File
 import java.util.Scanner

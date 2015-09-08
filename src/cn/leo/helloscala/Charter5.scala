@@ -1,6 +1,6 @@
-package cn.leo.scala
+package cn.leo.helloscala
 
-import cn.leo.scala.clazz._
+import cn.leo.helloscala.classes._
 
 /**
  * Created by Administrator.

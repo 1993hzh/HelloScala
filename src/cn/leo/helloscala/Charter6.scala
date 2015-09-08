@@ -1,4 +1,4 @@
-package cn.leo.scala
+package cn.leo.helloscala
 
 /**
  * Created by Administrator.
