@@ -1,4 +1,4 @@
-import scala.util.Random
+package cn.leo.helloscala
 
 /**
  * Created by leo on 15-9-2.
