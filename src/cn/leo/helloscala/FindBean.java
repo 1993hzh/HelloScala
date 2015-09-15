@@ -1,6 +1,6 @@
 package cn.leo.helloscala;
 
-import org.reflections.Reflections;
+//import org.reflections.Reflections;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -14,9 +14,9 @@ public class FindBean {
 
     public static List<String> scanClazz(String packageName) {
         List<String> classes = new ArrayList<>();
-        Reflections reflections = new Reflections(packageName);
-        Set<Class<? extends Object>> allClasses = reflections.getSubTypesOf(Object.class);
-        allClasses.forEach(e -> classes.add(e.getClass().getName()));
+//        Reflections reflections = new Reflections(packageName);
+//        Set<Class<? extends Object>> allClasses = reflections.getSubTypesOf(Object.class);
+//        allClasses.forEach(e -> classes.add(e.getClass().getName()));
         return classes;
     }
 
@@ -34,6 +34,8 @@ public class FindBean {
     }
 
     public static void main(String[] args) {
-        sameBeans().forEach(System.out::println);
+        sameBeans().forEach(e -> {
+            System.out.print(e);
+        });
     }
 }
