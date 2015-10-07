@@ -6,7 +6,7 @@ import cn.leo.helloscala.classes._
  * Created by Administrator.
  * 2015/9/10 20:37
  */
-object Charter8 extends App {
+object Chapter8 extends App {
 
   val ca = new CheckingAccount(100)
   ca.deposit(5)

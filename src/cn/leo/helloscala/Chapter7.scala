@@ -9,7 +9,7 @@ import scala.io.StdIn
  * Created by Administrator.
  * 2015/9/8 21:35
  */
-object Charter7 extends App {
+object Chapter7 extends App {
 
 
   random.seed = 4

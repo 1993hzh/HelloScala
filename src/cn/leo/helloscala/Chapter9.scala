@@ -10,7 +10,7 @@ import scala.io.Source
  * Created by Administrator.
  * 2015/9/15 20:55
  */
-object Charter9 {
+object Chapter9 {
 
   def main(args: Array[String]) {
     //    reverseFileLine(this.getClass.getResource("/").getPath + "myFile.txt")

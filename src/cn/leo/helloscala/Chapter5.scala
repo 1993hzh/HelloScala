@@ -6,7 +6,7 @@ import cn.leo.helloscala.classes._
  * Created by Administrator.
  * 2015/9/6 21:08
  */
-object Charter5 {
+object Chapter5 {
   def main(args: Array[String]) {
     val counter = new Counter
     counter.increment()

@@ -6,7 +6,7 @@ import cn.leo.helloscala.classes.{Fraction, Money, Matrirx}
  * Created by Administrator.
  * 2015/9/16 23:20
  */
-object Charter11 extends App {
+object Chapter11 extends App {
 
   println(new Fraction(15, -6).toString)
 

@@ -9,7 +9,7 @@ import cn.leo.helloscala.traits.{PropertyChange, RectangleLike}
  * Created by Administrator.
  * 2015/9/16 22:10
  */
-object Charter10 extends App {
+object Chapter10 extends App {
 
   val egg = new Double(5, 10, 20, 30) with RectangleLike
   println(egg)

@@ -10,7 +10,7 @@ import scala.collection.JavaConversions.propertiesAsScalaMap
  * Created by Administrator.
  * 2015/9/5 21:30
  */
-object Charter4 {
+object Chapter4 {
   def main(args: Array[String]): Unit = {
     //    wordCount.foreach(print)
     //    calendarMap

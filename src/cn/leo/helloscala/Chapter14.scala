@@ -5,7 +5,7 @@ package cn.leo.helloscala
  * Created by Administrator.
  * 2015/9/29 23:32
  */
-object Charter14 extends App {
+object Chapter14 extends App {
 
   def swap[S, T](pair: (S, T)) = {
     pair match {

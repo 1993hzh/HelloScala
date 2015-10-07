@@ -9,7 +9,7 @@ import scala.collection.mutable.HashMap
  * Created by Administrator.
  * 2015/9/17 22:44
  */
-object Charter13 extends App {
+object Chapter13 extends App {
 
   def indexes(str: String): HashMap[Char, SortedSet[Int]] = {
     var map = new HashMap[Char, SortedSet[Int]]()

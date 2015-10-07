@@ -5,7 +5,7 @@ package cn.leo.helloscala
  * Created by Administrator.
  * 2015/9/17 21:04
  */
-object Charter12 extends App {
+object Chapter12 extends App {
 
   def values(fun: (Int) => Int, low: Int, high: Int): Array[Array[Int]] = {
     val array = Array.ofDim[Int](high - low + 1, 2)
