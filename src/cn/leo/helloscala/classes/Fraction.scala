@@ -35,4 +35,19 @@ class Fraction(n: Int, d: Int) {
     val y: Int = if (b == 0) 0 else b * sign(b) / gcd(a, b);
     new Fraction(x, y)
   }
+
+
+  def compare(that: Int = 0): Int = {
+    if (num < that) -1
+    else if (num == that) 0
+    else 1
+  }
+
+
+}
+
+object Fraction {
+  def apply(n: Int, d: Int): Fraction = {
+    new Fraction(n, d)
+  }
 }
