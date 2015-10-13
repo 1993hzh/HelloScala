@@ -19,9 +19,7 @@ object Chapter21 extends App {
 
 
   implicit final class Percent2Int(private val initial: Int) {
-    def +%(percent: Int): Int = {
-      initial + initial * (BigDecimal(percent) / 100) toInt
-    }
+    def +%(percent: Int): Int = initial + initial * (BigDecimal(percent) / 100) toInt
   }
 
   implicit final class Factorial(private val initial: Int) {
